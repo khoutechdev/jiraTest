@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:8889/testeeSamba
+    username: root
+    password:
+
+application:
+  baseUrl: http://jira.tools.orange-sonatel.com
+  token: Basic c3RnX2VwdF9kczplcHQyMDE5
